@@ -1,7 +1,17 @@
 # HTML5 Development
 
-Download the HTMLStarter Template
+Usage:
 
-Extract it and load it to your Editor
+1) Please download "HTML_Stater_Template".
+2) Copy to your safest folder like D:\ or E:\
+3) Extract it
+4) Load it to your Editor
+5) Follow my classes regularly for Updated Code.
 
-These are just starter files , just follow my classes for complete HTML files.
+Thanks for your interest in learning UI Technologies.
+
+Please Click on "Follow Me" Button for more updates, Stay Connected.
+
+Happy Learning :)
+
+Your's NAVEEN SAGGAM
