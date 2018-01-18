@@ -14,6 +14,9 @@
             text-align: center;
             padding: 10px;
         }
+        header p{
+            color: #D7D9DC;
+        }
         small{
             color: orange;
         }
@@ -35,9 +38,17 @@
             padding: 14px 18px;
             color: white;
         }
-        nav ul li a:hover{
-            background-color: #1B232F;
+
+        nav ul li a.active{
+            background-color: #737A85;
             color: white;
+            border-radius: 7px;;
+        }
+
+        nav ul li a:hover{
+            background-color: #737A85;
+            color: white;
+            border-radius: 7px;
         }
 
         aside{
@@ -102,7 +113,7 @@
     <nav>
         <ul>
             <li>
-                <a href="#">Home</a>
+                <a href="#" class="active">Home</a>
             </li>
             <li>
                 <a href="#">About</a>
