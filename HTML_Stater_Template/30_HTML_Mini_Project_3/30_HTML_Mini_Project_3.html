@@ -3,13 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <title>Ui Brains</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: "Franklin Gothic Book",sans-serif;
+        }
+
+        /* Header , footer */
+        header , footer{
+            background-color: #0A0D12;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        /* Main Navigation */
+        nav{
+            background-color: #242F40;
+            overflow: hidden; /* mandatory */
+        }
+        nav ul{
+           list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li{
+            float: left; /*overflown the background color */
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            font-size: 18px;
+        }
+        nav ul li a:hover{
+            background-color: #737A85;
+            color: white;
+            border-radius: 7px;
+        }
+        nav ul li a.active{
+            background-color: #737A85;
+            color: white;
+            border-radius: 7px;
+        }
+
+        /* Side Bar */
+        aside{
+            float: left;
+            min-width: 200px;
+        }
+        aside ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        aside ul li a{
+            text-decoration: none;
+            color: black;
+            padding: 14px 20px;
+            display: block; /* Mandatory */
+            font-size: 18px;
+        }
+        aside ul li a:hover{
+            background-color: #4B5462;
+            color: white;
+        }
+
+        aside ul li a.active{
+            background-color: #0A0D12;
+            color: white;
+        }
+
+        /* Main Section */
+        section{
+            margin-left: 200px;
+            border-left: 2px solid gray;
+            padding: 10px;
+        }
+        details{
+            background-color: #1B232F;
+            color: white;
+            padding: 15px;
+            margin: 5px;
+        }
+        summary{
+            outline: none;
+        }
+        details div{
+            background-color: #C3C6CA;
+            color: black;
+            padding: 10px;
+            margin: 10px;
+        }
+        details div h3{
+            color: #0A0D12;
+        }
+
+        /* Main Footer */
+        small{
+            color: orange;
+        }
+    </style>
 </head>
 <body>
 
 
     <!-- Main Header -->
     <header>
-        <h2>UiBrains Technologies</h2>
+        <h1>UiBrains Technologies</h1>
         <p>The Smart Learning HUB</p>
     </header>
 
@@ -17,7 +120,7 @@
     <nav>
         <ul>
             <li>
-                <a href="#">Home</a>
+                <a href="#" class="active">Home</a>
             </li>
             <li>
                 <a href="#">About</a>
@@ -38,7 +141,7 @@
     <aside>
         <ul>
             <li>
-                <a href="#">HTML</a>
+                <a href="#" class="active">HTML</a>
             </li>
             <li>
                 <a href="#">JavaScript</a>
@@ -150,7 +253,7 @@
 
     <!-- Main Footer -->
     <footer>
-        <h2>Copyright &copy; 2018, UiBrains.com</h2>
+        <h3>Copyright &copy; 2018, UiBrains.com</h3>
         <p>All Rights Reserved</p>
         <small>Developed & Maintained by Naveen Saggam</small>
     </footer>
