@@ -11,13 +11,13 @@
             font-size: 12px;
         }
         table , th , td{
-            border: 2px solid blue;
+            border: 2px solid red;
             border-collapse: collapse;
             text-align: center;
             padding: 10px;
         }
-        #abc thead{
-            background-color: blue;
+        #custom thead{
+            background-color: red;
             color: white;
         }
     </style>
@@ -29,7 +29,7 @@
     <table width="100%">
         <thead>
             <tr>
-                <th>Sno</th>
+                <th>SNO</th>
                 <th>Name</th>
                 <th>Address</th>
             </tr>
@@ -37,7 +37,7 @@
         <tbody>
             <tr>
                 <td>1</td>
-                <td>Williams</td>
+                <td>John</td>
                 <td>USA</td>
             </tr>
             <tr>
@@ -53,24 +53,27 @@
         </tbody>
     </table>
 
+
+
     <!-- Table with Col Span -->
     <h2> Table with Col Span </h2>
     <table width="100%">
         <thead>
         <tr>
-            <th>Sno</th>
+            <th>SNO</th>
             <th colspan="2">Name & Address</th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td>1</td>
-            <td>Williams</td>
+            <td>John</td>
             <td>USA</td>
         </tr>
         <tr>
             <td>2</td>
-            <td colspan="2">Yong & Japan</td>
+            <td>Yong</td>
+            <td>Japan</td>
         </tr>
         <tr>
             <td>3</td>
@@ -86,7 +89,7 @@
     <table width="100%">
         <thead>
         <tr>
-            <th>Sno</th>
+            <th>SNO</th>
             <th>Name</th>
             <th>Address</th>
         </tr>
@@ -94,7 +97,7 @@
         <tbody>
         <tr>
             <td rowspan="2">1</td>
-            <td>Williams</td>
+            <td>John</td>
             <td>USA</td>
         </tr>
         <tr>
@@ -109,13 +112,12 @@
         </tbody>
     </table>
 
-
     <!-- Custom Table with CSS -->
     <h2> Custom Table with CSS </h2>
-    <table width="100%" id="abc">
+    <table width="100%" id="custom">
         <thead>
         <tr>
-            <th>Sno</th>
+            <th>SNO</th>
             <th>Name</th>
             <th>Address</th>
         </tr>
@@ -123,7 +125,7 @@
         <tbody>
         <tr>
             <td>1</td>
-            <td>Williams</td>
+            <td>John</td>
             <td>USA</td>
         </tr>
         <tr>
